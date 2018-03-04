@@ -1,0 +1,19 @@
+{
+  "name": "weathero-spa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "angular": "^1.6.9",
+    "angular-route": "^1.6.9",
+    "angular-resource": "^1.6.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server -o -p 9000"
+  },
+  
+  "author": "",
+  "license": "ISC"
+}
