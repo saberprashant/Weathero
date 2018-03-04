@@ -20,7 +20,8 @@ weatherApp.controller('forecastController', ['$scope', '$resource', '$routeParam
     
     $scope.days = $routeParams.days || '5';
     
-    APIKEY = "";  //paste your api key here
+    APIKEY = "";                      //paste your api key here, get one from [https://openweathermap.org/api]
+             
     APIURL = "http://api.openweathermap.org/data/2.5/forecast?APPID=" + APIKEY;
     $scope.weatherAPI = $resource(APIURL, { callback: "JSON_CALLBACK" }, 
                         { get: { method: "JSONP" }});
