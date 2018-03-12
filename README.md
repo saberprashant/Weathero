@@ -38,7 +38,7 @@ This will start a local server on port: 3000, where you can view the app.
   
     
       
-Author - Prashant Jain (prashantjain.pro@gmail.com)  
+**Author** - Prashant Jain (prashantjain.pro@gmail.com)  
 [Linkedin](https://www.linkedin.com/in/saberprashant/)
 
 
