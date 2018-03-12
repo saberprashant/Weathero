@@ -7,12 +7,14 @@ Make sure you have npm installed, if not then install it by visiting its officia
   
 Then install http-server by using npm:  
 ```
-npm install -g http-server
+> npm install -g http-server
 ```  
 
 Then, clone this repo to your own machine,  
 Register on [Open Weather Map API](https://openweathermap.org/api) and get your key,  
-Go to public/src/controller.js on line 23 and paste you key as APIKEY = "Your Key" and save.  
+Go to public/src/controller.js on **line 25** and paste you key as:  
+APIKEY = "YOUR API KEY";  
+and Save!  
   
 Then run this command in the directory where you cloned the repo:
 ```
@@ -33,7 +35,11 @@ This will start a local server on port: 3000, where you can view the app.
 - Push your work back up to your fork on Github
 
 - Submit a Pull request :)
-
+  
+    
+      
+Author - Prashant Jain (prashantjain.pro@gmail.com)  
+[Linkedin](https://www.linkedin.com/in/saberprashant/)
 
 
 
