@@ -7,6 +7,7 @@ weatherApp.service('cityService', function() {
 
 weatherApp.factory('States', function() {
 
+    //for typehead
     var states = [
         'Delhi, IN', 'Mumbai, IN', 'Chennai, IN', 'Agra, IN', 'Pune, IN', 'Bengaluru, IN',
         'Hyderabad, IN','Ahmedabad, IN',
